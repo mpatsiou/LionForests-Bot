@@ -9,7 +9,11 @@ Local Interpretation Of raNdom FORESTS. Building interpretable random forests!
 Towards a future where ML systems will integrate into every aspect of people’s lives, researching methods to interpret such systems is necessary, instead of focusing exclusively on enhancing their performance. Enriching the trust between these systems and people will accelerate this integration process. Many medical and retail banking/finance applications use state-of-the-art ML techniques to predict certain aspects of new instances. Thus, explainability is a key requirement for human-centred AI approaches. Tree ensembles, like random forests, are widely acceptable solutions on these tasks, while at the same time they are avoided due to their black-box uninterpretable nature, creating an unreasonable paradox. In this paper, we provide a methodology for shedding light on the predictions of the misjudged family of tree ensemble algorithms. Using classic unsupervised learning techniques and an enhanced similarity metric, to wander among transparent trees inside a forest following breadcrumbs, the interpretable essence of tree ensembles arises. An interpretation provided by these systems using our approach, which we call “LionForests”, can be a simple, comprehensive rule.
 
 ## Instructions
-Please ensure you have Flask installed. Then:
+The following command will install the packages according to the configuration file requirements.txt:
+```bash
+pip3 install -r requirements.txt
+```
+
 ```bash
 python3 app.py
 ```
@@ -22,12 +26,12 @@ Then, enjoy LF-Bot.
 ## Contributors on Altruist
 Name | Email | Contribution
 --- | --- | ---
-Ioannis Chatziarapis | ichatzik@csd.auth.gr | Main 
+Ioannis Chatziarapis | ichatzik@csd.auth.gr | Main
 [Ioannis Mollas](https://intelligence.csd.auth.gr/people/ioannis-mollas/) | iamollas@csd.auth.gr | Supervision
 [Nick Bassiliades](https://intelligence.csd.auth.gr/people/bassiliades/) | nbassili@csd.auth.gr | Supervision
 
 ## See our Lab's work on interpretability
-- [LionLearn Interpretability Library](https://github.com/intelligence-csd-auth-gr/LionLearn) containing: 
+- [LionLearn Interpretability Library](https://github.com/intelligence-csd-auth-gr/LionLearn) containing:
 1. [LioNets](https://github.com/iamollas/LionLearn/tree/master/LioNets): Local Interpretation Of Neural nETworkS through penultimate layer decoding
 2. [LionForests](https://github.com/iamollas/LionLearn/tree/master/LionForests): Local Interpretation Of raNdom FORESts through paTh Selection
 - [Altruist](https://github.com/iamollas/Altruist)
